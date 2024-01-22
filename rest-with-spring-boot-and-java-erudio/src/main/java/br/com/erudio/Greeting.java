@@ -1,0 +1,23 @@
+package br.com.erudio;
+
+public class Greeting {
+
+	private long id = 0;
+	private String context = "";
+	
+	
+	public Greeting(long id, String context) {
+		this.id = id;
+		this.context = context;
+	}
+	
+	public long getId() {
+		return id;
+	}
+	
+	public String getContext() {
+		return context;
+	}
+	
+	
+}
